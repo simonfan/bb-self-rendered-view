@@ -1,0 +1,17 @@
+{
+  "name": "bb-rendered-view",
+  "main": "built/bb-rendered-view.js",
+  "version": "0.0.0",
+  "description": "Some module...",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "lowercase-backbone": "~0.3.8"
+  },
+  "devDependencies": {
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "qunit": "*"
+  }
+}
