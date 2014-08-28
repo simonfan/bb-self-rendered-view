@@ -1,11 +1,11 @@
 {
     "project": {
-        "name": "bb-rendered-view",
+        "name": "bb-self-rendered-view",
         "version": "0.0.0"
     },
     "files": {
-        "src/bb-rendered-view.js": {
-            "name": "src/bb-rendered-view.js",
+        "src/bb-self-rendered-view.js": {
+            "name": "src/bb-self-rendered-view.js",
             "modules": {},
             "classes": {},
             "fors": {},
@@ -16,7 +16,7 @@
     "classes": {},
     "classitems": [
         {
-            "file": "src/bb-rendered-view.js",
+            "file": "src/bb-self-rendered-view.js",
             "line": 40,
             "description": "Parses options and returns the data to be used.\nThe default implementation sets default data.",
             "params": [
@@ -33,7 +33,7 @@
             "class": ""
         },
         {
-            "file": "src/bb-rendered-view.js",
+            "file": "src/bb-self-rendered-view.js",
             "line": 51,
             "description": "Does the \"heavy-lifting\" of verifying if template\nis available and in what format.\nAlso runs data parsing before rendering template.",
             "params": [
@@ -53,11 +53,11 @@
     "warnings": [
         {
             "message": "Missing item type\nParses options and returns the data to be used.\nThe default implementation sets default data.",
-            "line": " src/bb-rendered-view.js:40"
+            "line": " src/bb-self-rendered-view.js:40"
         },
         {
             "message": "Missing item type\nDoes the \"heavy-lifting\" of verifying if template\nis available and in what format.\nAlso runs data parsing before rendering template.",
-            "line": " src/bb-rendered-view.js:51"
+            "line": " src/bb-self-rendered-view.js:51"
         }
     ]
 }

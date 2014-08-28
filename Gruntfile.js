@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 
 		yuidoc: {
 			compile: {
-				name: 'bb-rendered-view',
+				name: 'bb-self-rendered-view',
 				version: '0.0.0',
 			//	description: '',
 			// 	url: '',
@@ -95,9 +95,9 @@ module.exports = function (grunt) {
 					// (must coincide with that defined in mainConfigFile)
 					baseUrl: './src',
 					// module name
-					name: 'bb-rendered-view',
+					name: 'bb-self-rendered-view',
 					// output here
-					out: './built/bb-rendered-view.js',
+					out: './built/bb-self-rendered-view.js',
 					// config file
 					mainConfigFile: 'amdconfig.js',
 
@@ -126,9 +126,9 @@ module.exports = function (grunt) {
 					// (must coincide with that defined in mainConfigFile)
 					baseUrl: './src',
 					// module name
-					name: 'bb-rendered-view',
+					name: 'bb-self-rendered-view',
 					// output here
-					out: './built/bb-rendered-view.dev.js',
+					out: './built/bb-self-rendered-view.dev.js',
 					// config file
 					mainConfigFile: 'amdconfig.js',
 
